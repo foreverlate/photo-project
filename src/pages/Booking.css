@@ -1,0 +1,41 @@
+.booking-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .booking-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .booking-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .booking-container input,
+    .booking-container textarea {
+      padding: 10px;
+      border: 1px solid #444;
+      background-color: #222;
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    .booking-container button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .booking-container button:hover {
+      background-color: #555;
+    }

@@ -1,0 +1,21 @@
+.history-container {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .history-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .history-content p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .history-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
